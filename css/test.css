@@ -8,11 +8,21 @@ div#box
     left: 100px;
     z-index: 1;
 }
-
+#text{
+    position: relative;
+    
+    left: 42%;
+    top: 280px;
+}
 button#emcee
 {
     position: relative;
-    left: 100px;
-    top: 200px;
+    left: 50%;
+    top: 300px;
     z-index: 2;   
+}
+button#Yes{
+    position: relative;
+    left: 50%;
+    top: 300px;
 }
