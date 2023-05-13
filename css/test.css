@@ -15,7 +15,7 @@ div#box
 }
 #text{
     position: relative;
-    
+    color:rgb(31, 21, 21);
     left: 42%;
     top: 280px;
 }
