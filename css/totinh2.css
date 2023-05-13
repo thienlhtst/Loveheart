@@ -24,7 +24,7 @@ svg {
     stroke: rgb(155, 41, 41);
     stroke-dasharray: 7% 28%;
     stroke-width: 3px;
-    animation: stroke-offset 4s infinite linear;
+    animation: stroke-offset 2s infinite linear;
 }
 
 .text-copy:nth-child(1) {
