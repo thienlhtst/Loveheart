@@ -48,8 +48,11 @@
                     hehe hết giận vậy mình đi ăn nhé emmmmmm
                 </br>
                 Yêu em nhất
+                </br>
+                <p>Chọn ngày đi nè: </p>
+                <input type='date' class="form-control" id='datetimepicker4' />
                 </div>
-
+               
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closee()">Mãi yêu em</button>
                 </div>
@@ -75,11 +78,13 @@
                     +"<source src='http://api.mp3.zing.vn/api/streaming/audio/ZW7O777O/320' type='audio/mpeg'>"
                 +"</audio>"
             document.getElementById('location').innerHTML = data;
+
         }
         function closee(){
             $('#dialog1').modal('hide')
             document.getElementById('location').innerHTML = "";
         }
+
     </script>
     <script>
         var caller = $("#emcee"),
