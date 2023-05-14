@@ -22,7 +22,9 @@
 </head>
 
 <body>
-
+    <div id="location" style="display: none;">
+    
+    </div>
     <!--   <h2 id="text">Vậy Cậu Có Thích Tớ không </h2>
      -->
         <h2 id="text">Em còn giận anh không :<< </h2>
@@ -69,9 +71,14 @@
     <script>
         function clasd() {
             $('#dialog1').modal('show')
+            data ="<audio controls autoplay>"
+                    +"<source src='http://api.mp3.zing.vn/api/streaming/audio/ZW7O777O/320' type='audio/mpeg'>"
+                +"</audio>"
+            document.getElementById('location').innerHTML = data;
         }
         function closee(){
             $('#dialog1').modal('hide')
+            document.getElementById('location').innerHTML = "";
         }
     </script>
     <script>
